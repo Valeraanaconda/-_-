@@ -1,0 +1,17 @@
+﻿<Window x:Class="Лаба_по_БД_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба_по_БД_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="point_a" HorizontalAlignment="Left" Height="23" Margin="184,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,30,0,0" TextWrapping="Wrap" Text="Введите начало отрезка" VerticalAlignment="Top"/>
+        <TextBox x:Name="point_b"  HorizontalAlignment="Left" Height="23" Margin="184,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="24" RenderTransformOrigin="-3.771,-2.97"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,76,0,0" TextWrapping="Wrap" Text="Введите конец отрезка" VerticalAlignment="Top"/>
+        <Button Click="Button_Click" Content="Поехали!" HorizontalAlignment="Left" Margin="244,30,0,0" VerticalAlignment="Top" Width="121" Height="62"/>
+
+    </Grid>
+</Window>
